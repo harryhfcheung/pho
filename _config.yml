@@ -1,3 +1,9 @@
 theme: minima
 title: Homepage
 description: Physics related
+# baseurl: ""  # optional, used if in a subfolder
+# url: "https://yourusername.github.io"  # optional, but helpful
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
