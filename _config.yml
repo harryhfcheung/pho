@@ -3,7 +3,8 @@ title: Homepage
 description: Physics related
 # baseurl: ""  # optional, used if in a subfolder
 # url: "https://yourusername.github.io"  # optional, but helpful
-
+baseurl: "/pho"       # ← your GitHub Pages repo name
+url: "https://harryhfcheung.github.io"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
