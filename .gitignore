@@ -36,5 +36,8 @@
 ehthumbs.db
 Thumbs.db
 
+# local render website files #
+##############################
 Gemfile.lock
 .bundle/
+_site/
