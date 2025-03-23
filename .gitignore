@@ -41,3 +41,5 @@ Thumbs.db
 Gemfile.lock
 .bundle/
 _site/
+
+*~
