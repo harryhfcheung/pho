@@ -13,7 +13,7 @@ Comments
 
 
 First we analyze a 2 wheel configuration, like in a bicycle. 
-Denote the separation of the 2 wheels as $D$, and the front angle twist relative to back is $\theta$.
+Denote the separation of the 2 wheels as $$D$$, and the front angle twist relative to back is $$\theta$$.
 Under no slipping condition, the separation between front point A and back point B has to be fixed at $D$.
 This implies the displacement of front has to be more than the back wheel, by a factor of $1/\cos\theta$.
 
