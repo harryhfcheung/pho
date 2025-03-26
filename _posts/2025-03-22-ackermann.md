@@ -2,37 +2,27 @@
 title: Ackermann steering
 ---
 
-Ackerman steering is a configuration for no slipping steering of wheeled vehicles.
+Ackermann steering is a configuration for no slipping steering of wheeled vehicles.
 
-<!--
-Comments
-
-
-
--->
-
-
-First we analyze a 2 wheel configuration, like in a bicycle. 
+First we analyze a 2 wheel configuration, like a bicycle.
 Denote the separation of the 2 wheels as $$D$$, and the front angle twist relative to back is $$\theta$$.
-Under no slipping condition, the separation between front point A and back point B has to be fixed at $$D$$.
-This implies the displacement of front has to be more than the back wheel, by a factor of $$1/\cos\theta$$.
+Under no slipping condition, the separation between front point A and back point B is constant, so the displacement of A and B along the connecting line AB have to be equal. From geometry, the displacements are related by $$d_A = d_B/\cos\theta$$.
 
-The motion of a rigid boy can be decomposed into translation and rotation. And note these 2 operations commute.
-The turning center is given by the intersection between the perpendicular line through the wheels.
+The turning center $$OO$$ is the intersection between the perpendicular line through the wheels.
 The turning radii are $$OA=D/\sin\theta$$ and $$OB=D/\tan\theta$$. Note $$OB/OA=\cos \theta$$.
+Note the front wheel and back wheel trace out different trajectories.
 
-In particular, the front wheel and back wheel trace out different trajectories.
+For a finite wheel width, no slipping condition is not exactly satisfied.
 
-In Ackerman steering of a 4 wheel vehicle, the back wheels are fixed and point in front. The 2 front wheel turn by different amount, engineered to be such that there is no slipping.
+In Ackermann steering of a 4 wheel vehicle, the back wheels are not movable and point in front. The 2 front wheels turn by different amount such that there is no slipping.
 
-If the horizontal wheel separation is $$H$$, we can geometrically solve the outer wheel turn angle $$\theta'$$. This satisfies $$D/\tan\theta' = H+D/\tan\theta$$. 
+Denote the horizontal wheel separation as $$H$$, under no slipping condition, the outer wheel turn angle $$\theta'$$ satisfies $$D/\tan\theta' = H+D/\tan\theta$$.
 
 Linkage machansim
+
 [to be added...]
 
-Wide turn
-For a given turn radius $$R$$, measured from turn center $$O$$ to the back wheel, how much do we need to turn?
-$$R=D/\tan\theta$$
+The turn angle $$\theta$$ for a given turn radius $$R$$, measured from turn center $$O$$ to the back wheel satisfies $$R=D/\tan\theta$$.
 
 
 
