@@ -8,7 +8,7 @@ First we analyze a 2 wheel configuration, like a bicycle.
 Denote the separation of the 2 wheels as $$D$$, and the front angle twist relative to back is $$\theta$$.
 Under no slipping condition, the separation between front point A and back point B is constant, so the displacement of A and B along the connecting line AB have to be equal. From geometry, the displacements are related by $$d_A = d_B/\cos\theta$$.
 
-The turning center $$OO$$ is the intersection between the perpendicular line through the wheels.
+The turning center $$O$$ is the intersection between the perpendicular line through the wheels.
 The turning radii are $$OA=D/\sin\theta$$ and $$OB=D/\tan\theta$$. Note $$OB/OA=\cos \theta$$.
 Note the front wheel and back wheel trace out different trajectories.
 
